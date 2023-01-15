@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPARTMENT WEBSITE</title>
+    <link rel="stylesheet" href="STYLE1.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"rel="stylesheet"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+         <nav>
+           <!---- <a href="index1.html"><img src="images/Logo.png"></a>------>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index1.html"> HOME</a></li>
+                    <li><a href="departmentlibrary.html"> HOME1</a></li>
+                    <li><a href=""> HOME2</a></li>
+                    <li><a href=""> HOM3</a></li>
+                    <li><a href=""> HOME3</a></li>
+                    <li><a href=""> HOME 4</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick ="showMenu()"></i>
+         </nav>
+         <div>
+            <div class="digitalnotes">
+
+            
+        </div>
+
+        
+         </div>
+            </div>
+            
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--java script toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+
+</body>
+</html>

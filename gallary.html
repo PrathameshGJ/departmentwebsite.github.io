@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPARTMENT WEBSITE</title>
+    <link rel="stylesheet" href="STYLE1.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"rel="stylesheet"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    <title>Departmentlibrary</title>
+</head>
+<body>
+    <section class="header6">
+        <nav>
+           
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+
+               <ul>
+                   <li><a href="index.html"> HOME</a></li>
+                   <li><a href="LIBRARY.html"> DEPARTMENT UPDATES</a></li>
+                   <li><a href="owr.html"> RECRUITERS</a></li>
+                   <li><a href="placementcell.html"> PLACEMENT CELL</a></li>
+                   <li><a href="LIBRARY.html"> LIBRARY</a></li>
+                  
+                   <li><a href="suggestionbox.html"> FEEDBACK</a></li>
+                   <li><a href="gallary.html"> GALLARY</a></li>
+                   
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick ="showMenu()"></i>
+
+        </nav>
+        <!--java script toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-500px";
+        }
+    </script>
+    </div> 
+        <div class="dptgallary">
+            <br><br>
+            <h1>DEPARTMENT GALLARY</h1>
+            <br>
+            
+        
+           <center> <video autoplay="" controls="" loop=""   width="90%" height="50%" src="images/dptgallary1.mp4" type="video/mp4"></video></center>
+        
+        <br>
+        </div>

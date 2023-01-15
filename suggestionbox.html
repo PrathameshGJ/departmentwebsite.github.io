@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPARTMENT WEBSITE</title>
+    <link rel="stylesheet" href="STYLE1.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"rel="stylesheet"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+    <title>Departmentlibrary</title>
+</head>
+<body>
+    <section class="header5">
+        <nav>
+           
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+
+               <ul>
+                   <li><a href="index.html"> HOME</a></li>
+                   <li><a href="updates.html"> DEPARTMENT UPDATES</a></li>
+                   <li><a href="owr.html"> RECRUITERS</a></li>
+                   <li><a href="placementcell.html"> PLACEMENT CELL</a></li>
+                   <li><a href="LIBRARY.html"> LIBRARY</a></li>
+                   <!--li><a href="calculator.html"> CALCULATOR</a></li>--->
+                   <li><a href="suggestionbox.html"> FEEDBACK</a></li>
+                   <li><a href="gallary.html"> GALLARY</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick ="showMenu()"></i>
+
+        </nav>
+    </div>
+    <!--java script toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+
+    <div class="box">
+    <h1> SUGGESTION BOX</h1>
+    <br>
+    <h3>LEAVE A COMMENT</h3>
+    <br>
+    <div>
+
+<center>
+<div class="contact-col">
+    
+    <form action="form-handler.php"method="post">
+        <input type="text"name="name" placeholder=" enter name"
+        required>
+        <input type="email" name="email" placeholder=" enter email"
+        required>
+        <input type="text" name="subject" placeholder=" enter your subject"
+        required> 
+        <textarea rows="8" name="message" placeholder="message"required></textarea>
+        <br>
+        <br>
+    <button type="submit"class="herobtn"><span></span> send comment</button>
+    
+    
+    </form>
+
+</center>
+
+<div>
+</div>
